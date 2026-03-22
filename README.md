@@ -2,6 +2,8 @@
 
 Linux-first Android/Desktop viewer for HomeBank `.xhb` files.
 
+License: BSD 3-Clause. See `LICENSE`.
+
 Current scope:
 
 - import a HomeBank `.xhb` file
