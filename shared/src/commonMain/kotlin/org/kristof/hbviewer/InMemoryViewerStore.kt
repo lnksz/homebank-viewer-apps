@@ -1,6 +1,6 @@
 package org.kristof.hbviewer
 
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 
 class InMemoryViewerStore : ViewerStore {
     private val parser = HomeBankParser()

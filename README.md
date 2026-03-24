@@ -24,8 +24,9 @@ Tech stack:
 
 Notes:
 
-- The current project assumes Java 17 and a working Gradle environment.
-- Desktop build is verified with `gradle desktopApp:run`.
+- The project now targets Java 25.
+- Desktop file picking uses FileKit for better native Linux integration.
+- Desktop app runs with `./gradlew desktopApp:run` on Java 25.
 - Android Studio can be used for the Android target.
 - Imported data is currently kept in memory only, so you need to re-open the `.xhb` file after restarting the app.
 

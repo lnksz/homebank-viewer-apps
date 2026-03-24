@@ -24,7 +24,7 @@ class ViewerController(
             runCatching {
                 repository.importXml(sourceName, xml)
             }.onSuccess {
-                refresh(selectedAccountId = _state.value.selectedAccountId)
+                refresh(selectedAccountId = null)
             }.onFailure { error ->
                 _state.value = _state.value.copy(errorMessage = error.message ?: "Import failed")
             }
